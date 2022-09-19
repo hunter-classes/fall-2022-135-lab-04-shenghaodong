@@ -1,0 +1,1 @@
+void makeCross(int size);
