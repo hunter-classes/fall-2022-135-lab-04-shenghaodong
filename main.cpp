@@ -2,6 +2,7 @@
 #include "box.h"
 #include "checkerboard.h"
 #include "cross.h"
+#include "lower.h"
 
 int main(){
     std::cout << "Task 1: \n" << std::endl;
@@ -15,7 +16,13 @@ int main(){
     std::cout << "Task 3: \n" << std::endl;
     std::cout << "Shape: \n";
     makeCross(9);
+
+    std::cout << "Task 4: \n" << std::endl;
+    std::cout << "Shape: \n";
+    makeLowerTriangle(6);
+
+
+
+
     return 0;
-
-
 }
