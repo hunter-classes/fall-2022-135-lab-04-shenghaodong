@@ -1,0 +1,1 @@
+void makeUpperTriangle(int length);
