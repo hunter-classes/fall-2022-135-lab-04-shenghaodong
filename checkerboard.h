@@ -1,0 +1,1 @@
+void makeCheckerboard(int width, int height);
