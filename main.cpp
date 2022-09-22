@@ -5,6 +5,7 @@
 #include "lower.h"
 #include "upper.h"
 #include "trapezoid.h"
+#include "checkerboard3x3.h"
 
 int main(){
     std::cout << "Task A: \n" << std::endl;
@@ -30,6 +31,10 @@ int main(){
     std::cout << "Task F: \n" << std::endl;
     std::cout << "Shape: \n";
     makeTrap(12, 7);
+
+    std::cout << "Task G: \n" << std::endl;
+    std::cout << "Shape: \n";
+    make3x3(16, 11);
 
     return 0;
 }
