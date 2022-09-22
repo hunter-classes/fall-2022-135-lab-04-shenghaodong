@@ -4,27 +4,32 @@
 #include "cross.h"
 #include "lower.h"
 #include "upper.h"
+#include "trapezoid.h"
 
 int main(){
-    std::cout << "Task 1: \n" << std::endl;
+    std::cout << "Task A: \n" << std::endl;
     std::cout << "Shape: \n";
     makeBox(7, 4);
 
-    std::cout << "Task 2: \n" << std::endl;
+    std::cout << "Task B: \n" << std::endl;
     std::cout << "Shape: \n";
     makeCheckerboard(11, 6);
 
-    std::cout << "Task 3: \n" << std::endl;
+    std::cout << "Task C: \n" << std::endl;
     std::cout << "Shape: \n";
     makeCross(10);
 
-    std::cout << "Task 4: \n" << std::endl;
+    std::cout << "Task D: \n" << std::endl;
     std::cout << "Shape: \n";
     makeLowerTriangle(6);
 
-    std::cout << "Task 5: \n" << std::endl;
+    std::cout << "Task E: \n" << std::endl;
     std::cout << "Shape: \n";
     makeUpperTriangle(9);
+
+    std::cout << "Task F: \n" << std::endl;
+    std::cout << "Shape: \n";
+    makeTrap(12, 7);
 
     return 0;
 }

@@ -1,0 +1,1 @@
+void makeTrap(int width, int height);
