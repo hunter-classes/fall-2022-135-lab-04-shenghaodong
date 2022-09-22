@@ -4,7 +4,19 @@
 void makeTrap(int width, int height){
     int spaces = 0;
     int stars = width;
-    for(int i = 0; i < height; i++){
+    bool canRun = true;
+    for(int x = 0; x < height; x++){
+        stars-=2;
+        spaces++;
+    }
+    if(stars == -2){
+        canRun = false;
+        std::cout << "Impossible" << std::endl;
+    }
+    stars = width;
+    spaces = 0;
+    if(canRun == true){
+        for(int i = 0; i < height; i++){
         int spaceCounter = 0;
         while(spaceCounter < spaces){
             std::cout << " ";
@@ -17,7 +29,7 @@ void makeTrap(int width, int height){
         spaces++;
         std::cout << "\n";
     }
-
+    }
 }
 
 

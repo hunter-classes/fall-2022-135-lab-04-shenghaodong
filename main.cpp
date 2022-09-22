@@ -30,6 +30,7 @@ int main(){
 
     std::cout << "Task F: \n" << std::endl;
     std::cout << "Shape: \n";
+    makeTrap(12, 5);
     makeTrap(12, 7);
 
     std::cout << "Task G: \n" << std::endl;
